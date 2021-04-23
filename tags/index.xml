@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nguyen Tri Tai&#39;s Blog</title>
-    <link>http://nguyentritai.github.io/tags/</link>
+    <link>http://nguyetritai.tk/tags/</link>
     <description>Recent content in Tags on Nguyen Tri Tai&#39;s Blog</description>
     <image>
-      <url>http://nguyentritai.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://nguyentritai.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://nguyetritai.tk/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://nguyetritai.tk/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://nguyentritai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://nguyetritai.tk/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
