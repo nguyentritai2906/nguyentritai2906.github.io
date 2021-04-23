@@ -4,6 +4,10 @@
     <title>Nguyen Tri Tai&#39;s Blog</title>
     <link>http://nguyentritai.github.io/</link>
     <description>Recent content on Nguyen Tri Tai&#39;s Blog</description>
+    <image>
+      <url>http://nguyentritai.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://nguyentritai.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Apr 2021 15:08:29 +0700</lastBuildDate><atom:link href="http://nguyentritai.github.io/index.xml" rel="self" type="application/rss+xml" />

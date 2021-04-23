@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://nguyentritai.github.io/sitemap.xml
