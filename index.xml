@@ -8,23 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Apr 2021 16:51:28 +0700</lastBuildDate><atom:link href="http://nguyentritai.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Config</title>
-      <link>http://nguyentritai.github.io/posts/lorem/</link>
-      <pubDate>Fri, 23 Apr 2021 16:51:28 +0700</pubDate>
-      
-      <guid>http://nguyentritai.github.io/posts/lorem/</guid>
-      <description>Desc Text.</description>
-    </item>
-    
-    <item>
       <title>Init</title>
       <link>http://nguyentritai.github.io/posts/init/</link>
       <pubDate>Fri, 23 Apr 2021 15:08:29 +0700</pubDate>
-      
+
       <guid>http://nguyentritai.github.io/posts/init/</guid>
-      <description>First post
-print(&amp;#34;First post&amp;#34;) </description>
+      <description>First post</description>
     </item>
-    
+
   </channel>
 </rss>
