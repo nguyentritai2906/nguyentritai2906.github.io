@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Nguyen Tri Tai&#39;s Blog</title>
+    <title>Posts on Nguyen Tri Tai</title>
     <link>http://nguyentritai2906.github.io/posts/</link>
-    <description>Recent content in Posts on Nguyen Tri Tai&#39;s Blog</description>
+    <description>Recent content in Posts on Nguyen Tri Tai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Apr 2021 16:51:28 +0700</lastBuildDate><atom:link href="http://nguyentritai2906.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <pubDate>Fri, 23 Apr 2021 16:51:28 +0700</pubDate>
       
       <guid>http://nguyentritai2906.github.io/posts/lorem/</guid>
-      <description>Lorem.</description>
+      <description>#Lorem Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</description>
     </item>
     
     <item>
@@ -22,7 +22,8 @@
       <pubDate>Fri, 23 Apr 2021 15:08:29 +0700</pubDate>
       
       <guid>http://nguyentritai2906.github.io/posts/init/</guid>
-      <description>Some description.</description>
+      <description>#Init Don&amp;rsquo;t mind me
+print(&amp;#34;First post&amp;#34;) </description>
     </item>
     
   </channel>
