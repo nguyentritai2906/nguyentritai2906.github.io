@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kiểm tra on Blog của Tài</title>
+    <link>http://nguyentritai2906.github.io/vi/tags/ki%E1%BB%83m-tra/</link>
+    <description>Recent content in Kiểm tra on Blog của Tài</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Apr 2021 15:08:29 +0700</lastBuildDate><atom:link href="http://nguyentritai2906.github.io/vi/tags/ki%E1%BB%83m-tra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Init</title>
+      <link>http://nguyentritai2906.github.io/vi/posts/init/</link>
+      <pubDate>Fri, 23 Apr 2021 15:08:29 +0700</pubDate>
+      
+      <guid>http://nguyentritai2906.github.io/vi/posts/init/</guid>
+      <description>Kiểm tra tính năng</description>
+    </item>
+    
+  </channel>
+</rss>
