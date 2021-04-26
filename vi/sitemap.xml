@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://nguyentritai2906.github.io/vi/</loc>
+    <lastmod>2021-04-23T15:08:29+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://nguyentritai2906.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://nguyentritai2906.github.io/vi/"
+                />
+  </url><url>
     <loc>http://nguyentritai2906.github.io/vi/categories/</loc>
     <lastmod>2021-04-23T15:08:29+07:00</lastmod>
     <xhtml:link
@@ -60,17 +73,16 @@
                 href="http://nguyentritai2906.github.io/vi/tags/"
                 />
   </url><url>
-    <loc>http://nguyentritai2906.github.io/vi/</loc>
-    <lastmod>2021-04-23T15:08:29+07:00</lastmod>
+    <loc>http://nguyentritai2906.github.io/vi/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://nguyentritai2906.github.io/"
+                href="http://nguyentritai2906.github.io/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://nguyentritai2906.github.io/vi/"
+                href="http://nguyentritai2906.github.io/vi/about/"
                 />
   </url><url>
     <loc>http://nguyentritai2906.github.io/vi/archive/</loc>

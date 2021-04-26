@@ -77,6 +77,16 @@
                 />
   </url><url>
     <loc>http://nguyentritai2906.github.io/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://nguyentritai2906.github.io/vi/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://nguyentritai2906.github.io/about/"
+                />
   </url><url>
     <loc>http://nguyentritai2906.github.io/archive/</loc>
     <xhtml:link
