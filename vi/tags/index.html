@@ -85,8 +85,8 @@
         </div>
         <ul id="menu" onscroll="menu_on_scroll()">
             <li>
-                <a href="http://nguyentritai2906.github.io/vi/posts" title="Home">
-                    <span>Home</span>
+                <a href="http://nguyentritai2906.github.io/vi/posts" title="Posts">
+                    <span>Posts</span>
                 </a>
             </li>
             <li>
@@ -123,10 +123,13 @@
 </header>
 
 <ul class="terms-tags">
+    <li>
+        <a href="http://nguyentritai2906.github.io/vi/tags/ki%E1%BB%83m-tra/">Kiểm tra <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
 </ul>
     </main>
     <footer class="footer">
-    <span>&copy; 2021 <a href="http://nguyentritai2906.github.io/vi/">Tai&#39;s Blog</a></span>
+    <span>&copy; 2021 <a href="http://nguyentritai2906.github.io/vi/">Nguyen Tri Tai</a></span>
     <span>&middot;</span>
     <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
     <span>&middot;</span>
@@ -141,7 +144,7 @@
 </a>
 
 <script>
-    window.onload = function () {
+    window.onload = function() {
         if (localStorage.getItem("menu-scroll-position")) {
             document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
         }
@@ -152,7 +155,7 @@
     }
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
+        anchor.addEventListener("click", function(e) {
             e.preventDefault();
             var id = this.getAttribute("href").substr(1);
             if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -169,11 +172,10 @@
             }
         });
     });
-
 </script>
 <script>
     var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
+    window.onscroll = function() {
         if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
             mybutton.style.visibility = "visible";
             mybutton.style.opacity = "1";
@@ -182,7 +184,6 @@
             mybutton.style.opacity = "0";
         }
     };
-
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
@@ -194,7 +195,6 @@
             localStorage.setItem("pref-theme", 'dark');
         }
     })
-
 </script>
 </body>
 

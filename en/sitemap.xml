@@ -2,6 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://nguyentritai2906.github.io/categories/</loc>
+    <lastmod>2021-04-23T16:51:28+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://nguyentritai2906.github.io/vi/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://nguyentritai2906.github.io/categories/"
+                />
+  </url><url>
+    <loc>http://nguyentritai2906.github.io/tags/init/</loc>
+    <lastmod>2021-04-23T16:51:28+07:00</lastmod>
+  </url><url>
+    <loc>http://nguyentritai2906.github.io/categories/init-test/</loc>
+    <lastmod>2021-04-23T16:51:28+07:00</lastmod>
+  </url><url>
     <loc>http://nguyentritai2906.github.io/posts/lorem/</loc>
     <lastmod>2021-04-23T16:51:28+07:00</lastmod>
   </url><url>
@@ -16,6 +35,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://nguyentritai2906.github.io/posts/"
+                />
+  </url><url>
+    <loc>http://nguyentritai2906.github.io/tags/</loc>
+    <lastmod>2021-04-23T16:51:28+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://nguyentritai2906.github.io/vi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://nguyentritai2906.github.io/tags/"
                 />
   </url><url>
     <loc>http://nguyentritai2906.github.io/</loc>
@@ -44,6 +76,8 @@
                 href="http://nguyentritai2906.github.io/posts/init/"
                 />
   </url><url>
+    <loc>http://nguyentritai2906.github.io/about/</loc>
+  </url><url>
     <loc>http://nguyentritai2906.github.io/archive/</loc>
     <xhtml:link
                 rel="alternate"
@@ -56,18 +90,6 @@
                 href="http://nguyentritai2906.github.io/archive/"
                 />
   </url><url>
-    <loc>http://nguyentritai2906.github.io/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://nguyentritai2906.github.io/vi/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://nguyentritai2906.github.io/categories/"
-                />
-  </url><url>
     <loc>http://nguyentritai2906.github.io/search/</loc>
     <xhtml:link
                 rel="alternate"
@@ -78,18 +100,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://nguyentritai2906.github.io/search/"
-                />
-  </url><url>
-    <loc>http://nguyentritai2906.github.io/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://nguyentritai2906.github.io/vi/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://nguyentritai2906.github.io/tags/"
                 />
   </url>
 </urlset>
