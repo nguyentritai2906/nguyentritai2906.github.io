@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Tai&#39;s Blog</title>
-    <link>http://nguyentritai.tk/posts/</link>
+    <link>https://nguyentritai.tk/posts/</link>
     <description>Recent content in Posts on Tai&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Apr 2021 16:51:28 +0700</lastBuildDate><atom:link href="http://nguyentritai.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Apr 2021 16:51:28 +0700</lastBuildDate><atom:link href="https://nguyentritai.tk/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lorem</title>
-      <link>http://nguyentritai.tk/posts/2020/lorem/</link>
+      <link>https://nguyentritai.tk/posts/2020/lorem/</link>
       <pubDate>Fri, 23 Apr 2021 16:51:28 +0700</pubDate>
       
-      <guid>http://nguyentritai.tk/posts/2020/lorem/</guid>
+      <guid>https://nguyentritai.tk/posts/2020/lorem/</guid>
       <description>This post is for testing purposes</description>
     </item>
     
     <item>
       <title>Init</title>
-      <link>http://nguyentritai.tk/posts/2020/init/</link>
+      <link>https://nguyentritai.tk/posts/2020/init/</link>
       <pubDate>Fri, 23 Apr 2021 15:08:29 +0700</pubDate>
       
-      <guid>http://nguyentritai.tk/posts/2020/init/</guid>
+      <guid>https://nguyentritai.tk/posts/2020/init/</guid>
       <description>This post is for testing purposes</description>
     </item>
     

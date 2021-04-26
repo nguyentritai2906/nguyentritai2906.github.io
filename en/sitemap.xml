@@ -2,114 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://nguyentritai.tk/categories/</loc>
+    <loc>https://nguyentritai.tk/categories/</loc>
     <lastmod>2021-04-23T16:51:28+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://nguyentritai.tk/vi/categories/"
+                href="https://nguyentritai.tk/vi/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://nguyentritai.tk/categories/"
+                href="https://nguyentritai.tk/categories/"
                 />
   </url><url>
-    <loc>http://nguyentritai.tk/tags/init/</loc>
+    <loc>https://nguyentritai.tk/tags/init/</loc>
     <lastmod>2021-04-23T16:51:28+07:00</lastmod>
   </url><url>
-    <loc>http://nguyentritai.tk/categories/init-test/</loc>
+    <loc>https://nguyentritai.tk/categories/init-test/</loc>
     <lastmod>2021-04-23T16:51:28+07:00</lastmod>
   </url><url>
-    <loc>http://nguyentritai.tk/posts/2020/lorem/</loc>
+    <loc>https://nguyentritai.tk/posts/2020/lorem/</loc>
     <lastmod>2021-04-23T16:51:28+07:00</lastmod>
   </url><url>
-    <loc>http://nguyentritai.tk/posts/</loc>
+    <loc>https://nguyentritai.tk/posts/</loc>
     <lastmod>2021-04-23T16:51:28+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://nguyentritai.tk/vi/posts/"
+                href="https://nguyentritai.tk/vi/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://nguyentritai.tk/posts/"
+                href="https://nguyentritai.tk/posts/"
                 />
   </url><url>
-    <loc>http://nguyentritai.tk/tags/</loc>
+    <loc>https://nguyentritai.tk/tags/</loc>
     <lastmod>2021-04-23T16:51:28+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://nguyentritai.tk/vi/tags/"
+                href="https://nguyentritai.tk/vi/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://nguyentritai.tk/tags/"
+                href="https://nguyentritai.tk/tags/"
                 />
   </url><url>
-    <loc>http://nguyentritai.tk/</loc>
+    <loc>https://nguyentritai.tk/</loc>
     <lastmod>2021-04-23T16:51:28+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://nguyentritai.tk/vi/"
+                href="https://nguyentritai.tk/vi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://nguyentritai.tk/"
+                href="https://nguyentritai.tk/"
                 />
   </url><url>
-    <loc>http://nguyentritai.tk/posts/2020/init/</loc>
+    <loc>https://nguyentritai.tk/posts/2020/init/</loc>
     <lastmod>2021-04-23T15:08:29+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://nguyentritai.tk/vi/posts/2020/init/"
+                href="https://nguyentritai.tk/vi/posts/2020/init/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://nguyentritai.tk/posts/2020/init/"
+                href="https://nguyentritai.tk/posts/2020/init/"
                 />
   </url><url>
-    <loc>http://nguyentritai.tk/about/</loc>
+    <loc>https://nguyentritai.tk/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://nguyentritai.tk/vi/about/"
+                href="https://nguyentritai.tk/vi/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://nguyentritai.tk/about/"
+                href="https://nguyentritai.tk/about/"
                 />
   </url><url>
-    <loc>http://nguyentritai.tk/archive/</loc>
+    <loc>https://nguyentritai.tk/archive/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://nguyentritai.tk/vi/archive/"
+                href="https://nguyentritai.tk/vi/archive/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://nguyentritai.tk/archive/"
+                href="https://nguyentritai.tk/archive/"
                 />
   </url><url>
-    <loc>http://nguyentritai.tk/search/</loc>
+    <loc>https://nguyentritai.tk/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://nguyentritai.tk/vi/search/"
+                href="https://nguyentritai.tk/vi/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://nguyentritai.tk/search/"
+                href="https://nguyentritai.tk/search/"
                 />
   </url>
 </urlset>
