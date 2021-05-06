@@ -761,9 +761,21 @@ much fun reading as I did writing it.</p>
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
+            const message = {
+                type: 'set-theme',
+                theme: 'github-light'
+            };
+            var utterances = document.querySelector('iframe');
+            utterances.contentWindow.postMessage(message, 'https://utteranc.es');
         } else {
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
+            const message = {
+                type: 'set-theme',
+                theme: 'github-dark'
+            };
+            var utterances = document.querySelector('iframe');
+            utterances.contentWindow.postMessage(message, 'https://utteranc.es');
         }
     })
 </script>
