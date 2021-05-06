@@ -6,32 +6,15 @@
     <description>Recent content on Tai&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Apr 2021 16:04:15 +0700</lastBuildDate><atom:link href="https://nguyentritai.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 15:48:43 +0700</lastBuildDate><atom:link href="https://nguyentritai.tk/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Katex</title>
-      <link>https://nguyentritai.tk/posts/2020/katex/katex/</link>
-      <pubDate>Tue, 27 Apr 2021 16:04:15 +0700</pubDate>
+      <title>Linear Regression and a deep dive into the mathematics behind it.</title>
+      <link>https://nguyentritai.tk/posts/2020/linear-regression/</link>
+      <pubDate>Mon, 03 May 2021 15:48:43 +0700</pubDate>
       
-      <guid>https://nguyentritai.tk/posts/2020/katex/katex/</guid>
-      <description>Math type with Katex</description>
-    </item>
-    
-    <item>
-      <title>Lorem</title>
-      <link>https://nguyentritai.tk/posts/2020/lorem/</link>
-      <pubDate>Fri, 23 Apr 2021 16:51:28 +0700</pubDate>
-      
-      <guid>https://nguyentritai.tk/posts/2020/lorem/</guid>
-      <description>This post is for testing purposes</description>
-    </item>
-    
-    <item>
-      <title>Init</title>
-      <link>https://nguyentritai.tk/posts/2020/init/</link>
-      <pubDate>Fri, 23 Apr 2021 15:08:29 +0700</pubDate>
-      
-      <guid>https://nguyentritai.tk/posts/2020/init/</guid>
-      <description>This post is for testing purposes</description>
+      <guid>https://nguyentritai.tk/posts/2020/linear-regression/</guid>
+      <description>Linear Regression is usually the first machine learning algorithm that every data scientist and machine learning engineer comes across. It is quite a simple model but it lays the foundation for other sophisticated learning algorithms. But what is it?
+What is Linear Regression? Before knowing what is linear regression, let us get ourselves accustomed to regression. Regression is a method of modeling the relationships between a dependent variable and one or more independent variables.</description>
     </item>
     
     <item>

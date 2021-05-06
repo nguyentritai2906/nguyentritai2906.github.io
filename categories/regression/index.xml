@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regression on Tai&#39;s Blog</title>
+    <link>https://nguyentritai.tk/categories/regression/</link>
+    <description>Recent content in Regression on Tai&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 May 2021 15:48:43 +0700</lastBuildDate><atom:link href="https://nguyentritai.tk/categories/regression/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linear Regression and a deep dive into the mathematics behind it.</title>
+      <link>https://nguyentritai.tk/posts/2020/linear-regression/</link>
+      <pubDate>Mon, 03 May 2021 15:48:43 +0700</pubDate>
+      
+      <guid>https://nguyentritai.tk/posts/2020/linear-regression/</guid>
+      <description>Linear Regression is usually the first machine learning algorithm that every data scientist and machine learning engineer comes across. It is quite a simple model but it lays the foundation for other sophisticated learning algorithms. But what is it?
+What is Linear Regression? Before knowing what is linear regression, let us get ourselves accustomed to regression. Regression is a method of modeling the relationships between a dependent variable and one or more independent variables.</description>
+    </item>
+    
+  </channel>
+</rss>
