@@ -209,7 +209,38 @@ Liên lạc với mình &hellip;"/>
 </div>
   <footer class="post-footer">
 
-  </footer><script src="https://utteranc.es/client.js" repo="nguyentritai2906/nguyentritai2906.github.io" issue-term="pathname" theme="github-dark" crossorigin="anonymous" async>
+  </footer>
+
+
+<script>
+    function getTheme() {
+        const light = "github-light"
+        const dark = "github-dark"
+        if (localStorage.getItem("pref-theme") === "light") {
+            return light;
+        } else {
+            return dark;
+        }
+    }
+
+    function loadUtterances() {
+        const commentsContainer = document.getElementById("comments");
+        if (commentsContainer !== null) {
+            commentsContainer.innerHTML = ''
+            const utterancesScript = document.createElement("script");
+            utterancesScript.setAttribute("id", "utterances");
+            utterancesScript.setAttribute("src", "https://utteranc.es/client.js");
+            utterancesScript.setAttribute("repo", "nguyentritai2906/nguyentritai2906.github.io");
+            utterancesScript.setAttribute("issue-term", "pathname");
+            utterancesScript.setAttribute("theme", getTheme());
+            utterancesScript.setAttribute("crossorigin", "anonymous");
+            utterancesScript.setAttribute("async", "true");
+
+            commentsContainer.appendChild(utterancesScript);
+        }
+    }
+
+    loadUtterances();
 </script>
 
 </article>
