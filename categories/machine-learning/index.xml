@@ -13,7 +13,7 @@
       <pubDate>Mon, 03 May 2021 15:48:43 +0700</pubDate>
       
       <guid>https://nguyentritai.tk/posts/2020/linear-regression/</guid>
-      <description>Linear Regression is usually the first machine learning algorithm that every data scientist and machine learning engineer comes across. It is quite a simple model but it lays the foundation for other sophisticated learning algorithms. But what is it?
+      <description>Linear Regression is the most basic, well known and well understood supervised learning algorithm. It&amp;rsquo;s probably the first thing that every Machine Learning Engineer and Data Scientist come across as it lays the foundation for other sophisticated learning algorithm. But what is it?
 What is Linear Regression? Before knowing what is linear regression, let us get ourselves accustomed to regression. Regression is a method of modeling the relationships between a dependent variable and one or more independent variables.</description>
     </item>
     
