@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://nguyentritai.tk/categories/</loc>
-    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
+    <lastmod>2021-08-22T16:01:28+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -15,26 +15,17 @@
                 href="https://nguyentritai.tk/categories/"
                 />
   </url><url>
-    <loc>https://nguyentritai.tk/tags/gradient-descent/</loc>
-    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
-  </url><url>
-    <loc>https://nguyentritai.tk/tags/linear-regression/</loc>
-    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
-  </url><url>
-    <loc>https://nguyentritai.tk/posts/2020/linear-regression/</loc>
-    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
+    <loc>https://nguyentritai.tk/posts/2021/depthwise-separable-convolution/</loc>
+    <lastmod>2021-08-22T16:01:28+07:00</lastmod>
   </url><url>
     <loc>https://nguyentritai.tk/tags/machine-learning/</loc>
-    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
+    <lastmod>2021-08-22T16:01:28+07:00</lastmod>
   </url><url>
     <loc>https://nguyentritai.tk/categories/machine-learning/</loc>
-    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
-  </url><url>
-    <loc>https://nguyentritai.tk/tags/normal-equation/</loc>
-    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
+    <lastmod>2021-08-22T16:01:28+07:00</lastmod>
   </url><url>
     <loc>https://nguyentritai.tk/posts/</loc>
-    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
+    <lastmod>2021-08-22T16:01:28+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -46,14 +37,8 @@
                 href="https://nguyentritai.tk/posts/"
                 />
   </url><url>
-    <loc>https://nguyentritai.tk/tags/pseudo-inverse/</loc>
-    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
-  </url><url>
-    <loc>https://nguyentritai.tk/categories/regression/</loc>
-    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
-  </url><url>
     <loc>https://nguyentritai.tk/tags/</loc>
-    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
+    <lastmod>2021-08-22T16:01:28+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -66,7 +51,7 @@
                 />
   </url><url>
     <loc>https://nguyentritai.tk/</loc>
-    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
+    <lastmod>2021-08-22T16:01:28+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -77,6 +62,24 @@
                 hreflang="en"
                 href="https://nguyentritai.tk/"
                 />
+  </url><url>
+    <loc>https://nguyentritai.tk/tags/gradient-descent/</loc>
+    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
+  </url><url>
+    <loc>https://nguyentritai.tk/tags/linear-regression/</loc>
+    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
+  </url><url>
+    <loc>https://nguyentritai.tk/posts/2020/linear-regression/</loc>
+    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
+  </url><url>
+    <loc>https://nguyentritai.tk/tags/normal-equation/</loc>
+    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
+  </url><url>
+    <loc>https://nguyentritai.tk/tags/pseudo-inverse/</loc>
+    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
+  </url><url>
+    <loc>https://nguyentritai.tk/categories/regression/</loc>
+    <lastmod>2021-05-03T15:48:43+07:00</lastmod>
   </url><url>
     <loc>https://nguyentritai.tk/about/</loc>
     <xhtml:link

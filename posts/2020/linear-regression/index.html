@@ -20,7 +20,7 @@ What is Linear Regression? Before knowing what is linear regression, let us get 
 <link rel="mask-icon" href="https://nguyentritai.tk/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.89.4" />
 <link rel="alternate" hreflang="en" href="https://nguyentritai.tk/posts/2020/linear-regression/" />
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.5/dist/katex.min.css" integrity="sha384-L+Gq2Cso/Y2x8fX4wausgiZT8z0QPZz7OqPuz4YqAycQJyrJT9NRLpjFBD6zlOia" crossorigin="anonymous">
@@ -215,7 +215,7 @@ What is Linear Regression? Before knowing what is linear regression, let us get 
 </div>
     </header> 
 <figure class="entry-cover">
-        <img loading="lazy" srcset="https://nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_360x0_resize_box_2.png 360w ,https://nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_480x0_resize_box_2.png 480w ,https://nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_720x0_resize_box_2.png 720w ,https://nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_1080x0_resize_box_2.png 1080w ,https://nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_1500x0_resize_box_2.png 1500w ,https://nguyentritai.tk/posts/2020/linear-regression/cover.png 1920w"
+        <img loading="lazy" srcset="https://nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_360x0_resize_box_3.png 360w ,https://nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_480x0_resize_box_3.png 480w ,https://nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_720x0_resize_box_3.png 720w ,https://nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_1080x0_resize_box_3.png 1080w ,https://nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_1500x0_resize_box_3.png 1500w ,https://nguyentritai.tk/posts/2020/linear-regression/cover.png 1920w"
             sizes="(min-width: 768px) 720px, 100vw" src="https://nguyentritai.tk/posts/2020/linear-regression/cover.png" alt="Linear Regression" />
         
 </figure><div class="toc">
@@ -426,7 +426,7 @@ cost function.</li>
 <li>$y$ is the vector of target values containing $y^{(1)}$ to $y^{(m)}$</li>
 </ul>
 <p>Let&rsquo;s generate some random linear-looking data to this equation.</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
 <span class="n">X</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
 <span class="n">y</span> <span class="o">=</span> <span class="mi">5</span> <span class="o">+</span> <span class="mi">4</span> <span class="o">*</span> <span class="n">X</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
@@ -436,19 +436,19 @@ cost function.</li>
 the <code>np.linalg.inv()</code> function from NumPy&rsquo;s linear algebra module to compute the
 inverse of a matrix. Note that the <code>@</code> symbol was introduced in Python 3.5 as
 matrix multiplication.</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">X_b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">((</span><span class="mi">100</span><span class="p">,</span><span class="mi">1</span><span class="p">)),</span> <span class="n">X</span><span class="p">]</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">X_b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">((</span><span class="mi">100</span><span class="p">,</span><span class="mi">1</span><span class="p">)),</span> <span class="n">X</span><span class="p">]</span>
 <span class="n">theta_bestfit</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">inv</span><span class="p">(</span><span class="n">X_b</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">X_b</span><span class="p">)</span> <span class="o">@</span> <span class="n">X_b</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">y</span>
 </code></pre></div><p>The function we used to generate the data is $y = 5 + 4x_1$ with some
 Gaussian noise. Let&rsquo;s see what the equation found!</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">&gt;&gt;&gt; theta_bestfit
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">&gt;&gt;&gt; theta_bestfit
 array([[5.09647054],
        [4.01624421]])
 </code></pre></div><p>Close enough. The noise made it impossible to recover the exact parameters of
 the original function. Now we can make prediction using $\widehat{\bm\theta}$</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">X_test</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">]])</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">X_test</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">]])</span>
 <span class="n">X_test_b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">)),</span> <span class="n">X_test</span><span class="p">]</span>
 <span class="n">y_predict</span> <span class="o">=</span> <span class="n">X_test_b</span> <span class="o">@</span> <span class="n">theta_bestfit</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">&gt;&gt;&gt; y_predict
+</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">&gt;&gt;&gt; y_predict
 array([[ 5.09647054],
        [17.14520317]])
 </code></pre></div><p><img loading="lazy" src="./images/linear_model_prediction_plot.png" alt="Linear model prediction"  />
@@ -520,8 +520,8 @@ $$</p>
 handles edge cases nicely and the pseudoinverse is always defined.</p>
 <p>Performing Moore-Penrose Pseudoinverse in python is simple. Just call
 <code>np.linalg.pinv()</code> instead!</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">theta_pinv</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">pinv</span><span class="p">(</span><span class="n">X_b</span><span class="p">)</span> <span class="o">@</span> <span class="n">y</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">&gt;&gt;&gt; theta_pinv
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">theta_pinv</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">pinv</span><span class="p">(</span><span class="n">X_b</span><span class="p">)</span> <span class="o">@</span> <span class="n">y</span>
+</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">&gt;&gt;&gt; theta_pinv
 array([[5.09647054],
        [4.01624421]])
 </code></pre></div><h2 id="computational-complexity">Computational Complexity<a hidden class="anchor" aria-hidden="true" href="#computational-complexity">#</a></h2>
@@ -636,7 +636,7 @@ determine the size of the downhill step.</p>
 MSE(\bm\theta)
 $$</p>
 <p>Let&rsquo;s look at a quick implementation of this algorithm.</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">eta</span> <span class="o">=</span> <span class="mf">0.1</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">eta</span> <span class="o">=</span> <span class="mf">0.1</span>
 <span class="n">n_iteration</span> <span class="o">=</span> <span class="mi">1000</span>
 <span class="n">m</span> <span class="o">=</span> <span class="mi">100</span>
 
@@ -646,7 +646,7 @@ $$</p>
     <span class="n">gradients</span> <span class="o">=</span> <span class="mi">2</span><span class="o">/</span><span class="n">m</span> <span class="o">*</span> <span class="n">X_b</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="p">(</span><span class="n">X_b</span> <span class="o">@</span> <span class="n">theta</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span>
     <span class="n">theta</span> <span class="o">-=</span> <span class="n">eta</span> <span class="o">*</span> <span class="n">gradients</span>
 </code></pre></div><p>That wasn&rsquo;t too hard! Let&rsquo;s take a look at the resulting $\bm\theta$</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">&gt;&gt;&gt; theta
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">&gt;&gt;&gt; theta
 array([[5.09647054],
        [4.01624421]])
 </code></pre></div><p>That&rsquo;s exactly what the Normal Equation found! But what if you have used a
@@ -679,6 +679,13 @@ much fun reading as I did writing it.</p>
             <li><a href="https://nguyentritai.tk/tags/pseudo-inverse/">Pseudo Inverse</a></li>
             <li><a href="https://nguyentritai.tk/tags/gradient-descent/">Gradient Descent</a></li>
         </ul>
+<nav class="paginav">
+  <a class="prev" href="https://nguyentritai.tk/posts/2021/depthwise-separable-convolution/">
+    <span class="title">« Prev Page</span>
+    <br>
+    <span>Depthwise Separable Convolution - How does it works?</span>
+  </a>
+</nav>
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Linear Regression and a deep dive into the mathematics behind it. on twitter"
