@@ -13,7 +13,7 @@
       <pubDate>Sun, 22 Aug 2021 16:01:28 +0700</pubDate>
       
       <guid>https://nguyentritai.tk/posts/2021/depthwise-separable-convolution/</guid>
-      <description>Description</description>
+      <description>Convolution is one of the fundamental building block of Deep Neural Network (DNN) but sometimes, it can be extremely expensive to compute since it brings a lots of parameters and we are running risk of overfiting. This is where depthwise separable convolution can be used to reduce the total number of parameters, as a result, speed up convolution. This is a form of factorized convolutions which factorize a standard convolution into a depthwise convolution and a 1 x 1 convolution called a pointwise convolution.</description>
     </item>
     
     <item>
