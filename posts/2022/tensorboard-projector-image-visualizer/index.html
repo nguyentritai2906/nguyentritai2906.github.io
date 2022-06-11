@@ -10,7 +10,7 @@
 <meta name="description" content="There are not much infomation on the internet on how to visualize your embeddings with Tensorboard. I&rsquo;ve had a hard time trying to make it work properly. Although there&rsquo;re some tutorial on the internet but most of them are for Tensorflow 1 and I didn&rsquo;t find the Tensorboard guide documentation page much help. So here&rsquo;s how I make it works and hopefully it&rsquo;ll help you too. But before we continue, I&rsquo;ll assume you already have an image dataset with labels and a model ready.">
 <meta name="author" content="Nguyen Tri Tai">
 <link rel="canonical" href="https://nguyentritai.tk/posts/2022/tensorboard-projector-image-visualizer/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.cabfdebf8aa2da736ff1b0aaa54bd5a60d408697acf8b4ebb651f177460dce81.css" integrity="sha256-yr/ev4qi2nNv8bCqpUvVpg1Ahpes&#43;LTrtlHxd0YNzoE=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.258309a8cbd70e6f8f22e7e835f7cf1dbd70d1c793875353813389b8419684d9.css" integrity="sha256-JYMJqMvXDm&#43;PIufoNffPHb1w0ceTh1NTgTOJuEGWhNk=" rel="preload stylesheet" as="style">
 <link rel="preload" href="/avatar.png" as="image">
 <link rel="icon" href="https://nguyentritai.tk/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://nguyentritai.tk/favicon-16x16.png">
@@ -281,7 +281,7 @@ the dataset like I do here.</p>
 </code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">Embeddings</span> <span class="n">shape</span><span class="p">:</span> <span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">64</span><span class="p">)</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">Labels</span> <span class="n">shape</span><span class="p">:</span> <span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="p">)</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">Images</span> <span class="n">shape</span><span class="p">:</span> <span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
-</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ ls -alh embedding_log/
+</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ ls -alh embedding_log/
 drwxr-xr-x  <span class="m">3</span> nttai nttai 4.0K Jun <span class="m">11</span> 15:00 .
 drwxrwxr-x <span class="m">18</span> nttai nttai 4.0K Jun <span class="m">10</span> 10:23 ..
 -rw-r--r--  <span class="m">1</span> nttai nttai 7.5M Jun <span class="m">10</span> 10:24 embeddings.npy
@@ -325,7 +325,7 @@ size of 256x256 pixels.</p>
         </figcaption>
 </figure>
 
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ ls -alh embedding_log/
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ ls -alh embedding_log/
 drwxr-xr-x  <span class="m">3</span> nttai nttai 4.0K Jun <span class="m">11</span> 15:00 .
 drwxrwxr-x <span class="m">18</span> nttai nttai 4.0K Jun <span class="m">10</span> 10:23 ..
 -rw-r--r--  <span class="m">1</span> nttai nttai 7.5M Jun <span class="m">10</span> 10:24 embeddings.npy
@@ -360,8 +360,8 @@ by tabs like so.</p>
 8	1744
 9	1026
 10	6774
-... ...
-</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ ls -alh embedding_log/
+...     ...
+</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ ls -alh embedding_log/
 drwxr-xr-x  <span class="m">3</span> nttai nttai 4.0K Jun <span class="m">11</span> 15:00 .
 drwxrwxr-x <span class="m">18</span> nttai nttai 4.0K Jun <span class="m">10</span> 10:23 ..
 -rw-r--r--  <span class="m">1</span> nttai nttai 7.5M Jun <span class="m">10</span> 10:24 embeddings.npy
@@ -375,7 +375,7 @@ to the same <code>log_dir</code> directory.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">embeddings</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">embeddings</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;embeddings&#39;</span><span class="p">)</span>
 <span class="n">checkpoint</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">train</span><span class="o">.</span><span class="n">Checkpoint</span><span class="p">(</span><span class="n">embedding</span><span class="o">=</span><span class="n">embeddings</span><span class="p">)</span>
 <span class="n">checkpoint</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">log_dir</span><span class="p">,</span> <span class="s2">&#34;embedding.ckpt&#34;</span><span class="p">))</span>
-</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ ls -alh embedding_log/
+</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ ls -alh embedding_log/
 drwxr-xr-x  <span class="m">3</span> nttai nttai 4.0K Jun <span class="m">11</span> 15:00 .
 drwxrwxr-x <span class="m">18</span> nttai nttai 4.0K Jun <span class="m">10</span> 10:23 ..
 -rw-r--r--  <span class="m">1</span> nttai nttai   <span class="m">89</span> Jun <span class="m">11</span> 15:00 checkpoint
