@@ -13,7 +13,7 @@
       <pubDate>Fri, 10 Jun 2022 21:21:31 +0700</pubDate>
       
       <guid>https://nguyentritai.tk/posts/2022/tensorboard-projector-image-visualizer/</guid>
-      <description>There are not much infomation on the internet on how to visualize your embeddings with Tensorboard. I&amp;rsquo;ve had a hard time to make it work properly. Although there&amp;rsquo;re some tutorial on the internet but most of them are for Tensorflow 1 and I didn&amp;rsquo;t find the Tensorboard guide documentation page much help. So here&amp;rsquo;s how I make it works and hopefully it&amp;rsquo;ll help you too. But before you continue, let&amp;rsquo;s assume you already have an image dataset with labels and a model ready.</description>
+      <description>There are not much infomation on the internet on how to visualize your embeddings with Tensorboard. I&amp;rsquo;ve had a hard time trying to make it work properly. Although there&amp;rsquo;re some tutorial on the internet but most of them are for Tensorflow 1 and I didn&amp;rsquo;t find the Tensorboard guide documentation page much help. So here&amp;rsquo;s how I make it works and hopefully it&amp;rsquo;ll help you too. But before we continue, I&amp;rsquo;ll assume you already have an image dataset with labels and a model ready.</description>
     </item>
     
     <item>
