@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tensorboard on Tai&#39;s Blog</title>
+    <link>https://nguyentritai.tk/tags/tensorboard/</link>
+    <description>Recent content in Tensorboard on Tai&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jun 2022 21:21:31 +0700</lastBuildDate><atom:link href="https://nguyentritai.tk/tags/tensorboard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tensorboard Projector Image Visualizer with Tensorflow 2</title>
+      <link>https://nguyentritai.tk/posts/2022/tensorboard-projector-image-visualizer/</link>
+      <pubDate>Fri, 10 Jun 2022 21:21:31 +0700</pubDate>
+      
+      <guid>https://nguyentritai.tk/posts/2022/tensorboard-projector-image-visualizer/</guid>
+      <description>There are not much infomation on the internet on how to visualize your embeddings with Tensorboard. I&amp;rsquo;ve had a hard time to make it work properly. Although there&amp;rsquo;re some tutorial on the internet but most of them are for Tensorflow 1 and I didn&amp;rsquo;t find the Tensorboard guide documentation page much help. So here&amp;rsquo;s how I make it works and hopefully it&amp;rsquo;ll help you too. But before you continue, let&amp;rsquo;s assume you already have an image dataset with labels and a model ready.</description>
+    </item>
+    
+  </channel>
+</rss>
