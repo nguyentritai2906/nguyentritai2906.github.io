@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nguyentritai.tk/tags/machine-learning/</loc>
-    <lastmod>2022-06-10T21:21:31+07:00</lastmod>
+    <loc>https://nguyentritai.tk/tags/authentication/</loc>
+    <lastmod>2023-03-01T13:31:22+07:00</lastmod>
+  </url><url>
+    <loc>https://nguyentritai.tk/tags/authorization/</loc>
+    <lastmod>2023-03-01T13:31:22+07:00</lastmod>
   </url><url>
     <loc>https://nguyentritai.tk/</loc>
-    <lastmod>2022-06-10T21:21:31+07:00</lastmod>
+    <lastmod>2023-03-01T13:31:22+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -18,8 +21,14 @@
                 href="https://nguyentritai.tk/"
                 />
   </url><url>
+    <loc>https://nguyentritai.tk/tags/oauth2/</loc>
+    <lastmod>2023-03-01T13:31:22+07:00</lastmod>
+  </url><url>
+    <loc>https://nguyentritai.tk/posts/2023/oauth2/</loc>
+    <lastmod>2023-03-01T13:31:22+07:00</lastmod>
+  </url><url>
     <loc>https://nguyentritai.tk/posts/</loc>
-    <lastmod>2022-06-10T21:21:31+07:00</lastmod>
+    <lastmod>2023-03-01T13:31:22+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -32,7 +41,7 @@
                 />
   </url><url>
     <loc>https://nguyentritai.tk/tags/</loc>
-    <lastmod>2022-06-10T21:21:31+07:00</lastmod>
+    <lastmod>2023-03-01T13:31:22+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -43,6 +52,9 @@
                 hreflang="en"
                 href="https://nguyentritai.tk/tags/"
                 />
+  </url><url>
+    <loc>https://nguyentritai.tk/tags/machine-learning/</loc>
+    <lastmod>2022-06-10T21:21:31+07:00</lastmod>
   </url><url>
     <loc>https://nguyentritai.tk/tags/tensorboard/</loc>
     <lastmod>2022-06-10T21:21:31+07:00</lastmod>

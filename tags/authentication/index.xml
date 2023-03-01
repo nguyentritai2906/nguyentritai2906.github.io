@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Authentication on nttai</title>
+    <link>https://nguyentritai.tk/tags/authentication/</link>
+    <description>Recent content in Authentication on nttai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2023 13:31:22 +0700</lastBuildDate><atom:link href="https://nguyentritai.tk/tags/authentication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oauth2 - The concept</title>
+      <link>https://nguyentritai.tk/posts/2023/oauth2/</link>
+      <pubDate>Wed, 01 Mar 2023 13:31:22 +0700</pubDate>
+      
+      <guid>https://nguyentritai.tk/posts/2023/oauth2/</guid>
+      <description>Have you ever wonder how &amp;#39;Login with Google&amp;#39; or &amp;#39;Login with Facebook&amp;#39; work? Here&amp;#39;s a brief overview of OAuth2 protocol.</description>
+    </item>
+    
+  </channel>
+</rss>

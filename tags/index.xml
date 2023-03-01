@@ -6,7 +6,34 @@
     <description>Recent content in Tags on nttai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jun 2022 21:21:31 +0700</lastBuildDate><atom:link href="https://nguyentritai.tk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 13:31:22 +0700</lastBuildDate><atom:link href="https://nguyentritai.tk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Authentication</title>
+      <link>https://nguyentritai.tk/tags/authentication/</link>
+      <pubDate>Wed, 01 Mar 2023 13:31:22 +0700</pubDate>
+      
+      <guid>https://nguyentritai.tk/tags/authentication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Authorization</title>
+      <link>https://nguyentritai.tk/tags/authorization/</link>
+      <pubDate>Wed, 01 Mar 2023 13:31:22 +0700</pubDate>
+      
+      <guid>https://nguyentritai.tk/tags/authorization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OAuth2</title>
+      <link>https://nguyentritai.tk/tags/oauth2/</link>
+      <pubDate>Wed, 01 Mar 2023 13:31:22 +0700</pubDate>
+      
+      <guid>https://nguyentritai.tk/tags/oauth2/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Machine Learning</title>
       <link>https://nguyentritai.tk/tags/machine-learning/</link>
