@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Machine Learning on nttai</title>
-    <link>https://nguyentritai.tk/categories/machine-learning/</link>
+    <link>https://blog.nguyentritai.tk/categories/machine-learning/</link>
     <description>Recent content in Machine Learning on nttai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Aug 2021 16:01:28 +0700</lastBuildDate><atom:link href="https://nguyentritai.tk/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Aug 2021 16:01:28 +0700</lastBuildDate><atom:link href="https://blog.nguyentritai.tk/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Depthwise Separable Convolution - How does it works?</title>
-      <link>https://nguyentritai.tk/posts/2021/depthwise-separable-convolution/</link>
+      <link>https://blog.nguyentritai.tk/posts/2021/depthwise-separable-convolution/</link>
       <pubDate>Sun, 22 Aug 2021 16:01:28 +0700</pubDate>
       
-      <guid>https://nguyentritai.tk/posts/2021/depthwise-separable-convolution/</guid>
+      <guid>https://blog.nguyentritai.tk/posts/2021/depthwise-separable-convolution/</guid>
       <description>Convolution is one of the fundamental building block of Deep Neural Network (DNN) but sometimes, it can be extremely expensive to compute since it brings a lots of parameters and we are running risk of overfiting. This is where depthwise separable convolution can be used to reduce the total number of parameters, as a result, speed up convolution. This is a form of factorized convolutions which factorize a standard convolution into a depthwise convolution and a 1 x 1 convolution called a pointwise convolution.</description>
     </item>
     
     <item>
       <title>Linear Regression and a deep dive into the mathematics behind it.</title>
-      <link>https://nguyentritai.tk/posts/2020/linear-regression/</link>
+      <link>https://blog.nguyentritai.tk/posts/2020/linear-regression/</link>
       <pubDate>Mon, 03 May 2021 15:48:43 +0700</pubDate>
       
-      <guid>https://nguyentritai.tk/posts/2020/linear-regression/</guid>
+      <guid>https://blog.nguyentritai.tk/posts/2020/linear-regression/</guid>
       <description>Linear Regression is the most basic, well known and well understood supervised learning algorithm. It&amp;rsquo;s probably the first thing that every Machine Learning Engineer and Data Scientist come across as it lays the foundation for other sophisticated learning algorithm. But what is it?
 What is Linear Regression? Before knowing what is linear regression, let us get ourselves accustomed to regression. Regression is a method of modeling the relationships between a dependent variable and one or more independent variables.</description>
     </item>
