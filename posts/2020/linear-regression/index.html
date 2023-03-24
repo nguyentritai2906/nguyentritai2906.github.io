@@ -10,18 +10,18 @@
 <meta name="description" content="Linear Regression is the most basic, well known and well understood supervised learning algorithm. It&rsquo;s probably the first thing that every Machine Learning Engineer and Data Scientist come across as it lays the foundation for other sophisticated learning algorithm. But what is it?
 What is Linear Regression? Before knowing what is linear regression, let us get ourselves accustomed to regression. Regression is a method of modeling the relationships between a dependent variable and one or more independent variables.">
 <meta name="author" content="Nguyen Tri Tai">
-<link rel="canonical" href="https://blog.nguyentritai.tk/posts/2020/linear-regression/" />
+<link rel="canonical" href="https://blog.nguyentritai.io/posts/2020/linear-regression/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.258309a8cbd70e6f8f22e7e835f7cf1dbd70d1c793875353813389b8419684d9.css" integrity="sha256-JYMJqMvXDm&#43;PIufoNffPHb1w0ceTh1NTgTOJuEGWhNk=" rel="preload stylesheet" as="style">
 <link rel="preload" href="/avatar.png" as="image">
-<link rel="icon" href="https://blog.nguyentritai.tk/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://blog.nguyentritai.tk/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://blog.nguyentritai.tk/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://blog.nguyentritai.tk/apple-touch-icon.png">
-<link rel="mask-icon" href="https://blog.nguyentritai.tk/safari-pinned-tab.svg">
+<link rel="icon" href="https://blog.nguyentritai.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.nguyentritai.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.nguyentritai.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.nguyentritai.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.nguyentritai.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.92.0" />
-<link rel="alternate" hreflang="en" href="https://blog.nguyentritai.tk/posts/2020/linear-regression/" />
+<link rel="alternate" hreflang="en" href="https://blog.nguyentritai.io/posts/2020/linear-regression/" />
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
 
@@ -64,13 +64,13 @@ What is Linear Regression? Before knowing what is linear regression, let us get 
 <meta property="og:description" content="Linear Regression is the most basic, well known and well understood supervised learning algorithm. It&rsquo;s probably the first thing that every Machine Learning Engineer and Data Scientist come across as it lays the foundation for other sophisticated learning algorithm. But what is it?
 What is Linear Regression? Before knowing what is linear regression, let us get ourselves accustomed to regression. Regression is a method of modeling the relationships between a dependent variable and one or more independent variables." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.nguyentritai.tk/posts/2020/linear-regression/" />
-<meta property="og:image" content="https://blog.nguyentritai.tk/posts/2020/linear-regression/cover.png" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://blog.nguyentritai.io/posts/2020/linear-regression/" />
+<meta property="og:image" content="https://blog.nguyentritai.io/posts/2020/linear-regression/cover.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-05-03T15:48:43&#43;07:00" />
 <meta property="article:modified_time" content="2021-05-03T15:48:43&#43;07:00" /><meta property="og:site_name" content="nttai" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://blog.nguyentritai.tk/posts/2020/linear-regression/cover.png" />
+<meta name="twitter:image" content="https://blog.nguyentritai.io/posts/2020/linear-regression/cover.png" />
 <meta name="twitter:title" content="Linear Regression and a deep dive into the mathematics behind it."/>
 <meta name="twitter:description" content="Linear Regression is the most basic, well known and well understood supervised learning algorithm. It&rsquo;s probably the first thing that every Machine Learning Engineer and Data Scientist come across as it lays the foundation for other sophisticated learning algorithm. But what is it?
 What is Linear Regression? Before knowing what is linear regression, let us get ourselves accustomed to regression. Regression is a method of modeling the relationships between a dependent variable and one or more independent variables."/>
@@ -85,13 +85,13 @@ What is Linear Regression? Before knowing what is linear regression, let us get 
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "https://blog.nguyentritai.tk/posts/"
+      "item": "https://blog.nguyentritai.io/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Linear Regression and a deep dive into the mathematics behind it.",
-      "item": "https://blog.nguyentritai.tk/posts/2020/linear-regression/"
+      "item": "https://blog.nguyentritai.io/posts/2020/linear-regression/"
     }
   ]
 }
@@ -109,7 +109,7 @@ What is Linear Regression? Before knowing what is linear regression, let us get 
   "articleBody": "Linear Regression is the most basic, well known and well understood supervised learning algorithm. It’s probably the first thing that every Machine Learning Engineer and Data Scientist come across as it lays the foundation for other sophisticated learning algorithm. But what is it?\nWhat is Linear Regression? Before knowing what is linear regression, let us get ourselves accustomed to regression. Regression is a method of modeling the relationships between a dependent variable and one or more independent variables.\nIt is used when we want to predict the value of a variable based on the value of other variables. The variable we want to predict is called the dependent variable (also called the target or output). The variables we are using to predict the another variable’s value are called the independent variables (also called the features or input). Regression techniques mostly differ based on the number of independent variables and the type of relationship between the dependent and independent variables.\nLinear regression is a linear model, i.e. a model that assumes a linear relationship between the input variables $x$ and the single output variable $y$. More specifically, that $y$ can be calculated from a linear combination of the input variables. When there is a single input variable, the method is referred to as simple linear regression. When there are multiple input variables, literature from statistics often refers to the method as multiple linear regression.\nIn machine learning, linear regression is a supervised learning algorithm where the predicted output is continuous and has a constant slope. It’s used to for forecasting and finding out cause and effect relationship between variables within a continuous range (e.g. sales, price).\n Linear Regression In Real Life - by Carolina Bento   Linear Regression Model Representation Linear regression model is an attractive model because the representation is so simple. It’s just a function of one or more input feature $x$ and an output value $y$. As such, both the input and output value are numeric.\nMore generally, a linear model make prediction by simply computing a weighted sum of the input values plus a constant called the bias term (also called the intercept term), as shown in the equation below:\n$$y = \\theta_0 + \\theta_1 x_1 + \\theta_2 x_2 + … + \\theta_n x_n$$\nIn this equation:\n $y$ is the predicted value. $n$ is the number of features. $x_i$ is the $i^{th}$ feature value. $\\theta_j$ (pronounced theta) is the $j^{th}$ model parameter (including the bias term $\\theta_0$ and the feature weights $\\theta_1$, $\\theta_2$, …, $\\theta_n$).  This can be written more concisely using a vectorized form as:\n$$y = h_{\\bm\\theta}\\left(\\textbf{x}\\right) = \\bm\\theta^T\\cdot\\textbf{x}$$\nWhere:\n $\\bm\\theta^T$ is the transpose of the model’s parameter vector, containing the bias term $\\theta_0$ and the feature weights $\\theta_1$ to $\\theta_n$. $\\textbf{x}$ is the instance’s feature vector, containing $x_0$ to $x_n$, with $x_0$ always equal to 1. $\\bm\\theta^T \\cdot \\textbf{x} $ is the dot product of the vectors $\\bm\\theta^T$ and $\\textbf{x}$. $h_{\\bm\\theta}$ is the hypothesis function, using the model parameters $\\theta$.  Our job is to set its parameters (i.e. find $\\bm\\theta$) so that the model best fits the training set. For this purpose we need some metric to measure how well (or poorly) the model fits the training data.\nThe Cost Function Mean Squared Error The most common performance measure of a regression model is the Root Mean Squared Error (RMSE). But in some contexts you may prefer to use another function, e.g. Mean Absolute Error (MAE) if there are many outliers. Here we’ll use the Mean Squared Error (MSE) because it is simplier to minimize than the RMSE, and it lead to the same result (because it value that minimizes this function also minimizes its square root).\nThe MSE of a Linear Regression hypothesis $h_{\\bm\\theta}$ on a training set $\\textbf{X}$ (also called the cost function) is calculated using the equation:\n$$ \\text{MSE}\\left(\\textbf{X}, h_{\\bm\\theta}\\right) = \\frac{1}{m} \\displaystyle\\sum_{i=1}^m \\left(\\bm\\theta^T \\textbf x^{(i)} - y^{(i)}\\right)^2 $$\nWhere:\n $m$ is the number of instances in the dataset you are measuring on. $\\bm\\theta^T \\textbf x^{(i)}$ is the predicted value of the model for the $i^{th}$ instance. $y^{(i)}$ is the target value of the $i^{th}$ instance. $\\textbf x^{(i)}$ is a vector of all the feature values $\\textbf{X}$ is a matrix containing all the feature values of all instances in the dataset. There is one instance per row, and the $i^{th}$ row is equal to the transpose of all the features of this instance $\\textbf{x}^{(i)}$ $h_{\\bm\\theta}$ is the model’s prediction function parameterized by the vector $\\theta$, also called the hypothesis.  What it does is calculate the difference between the model’s prediction and the true target value and square it (hence $\\left(\\bm\\theta^T \\textbf x^{(i)} - y^{(i)}\\right)^2$). Do it for all of the instances in the dataset then take the sum of all the calculated square differences. Divide that sum by the total number of instances in the dataset to get the mean. The larger the error, the larger the MSE and the opposite. We want to find the value of $\\bm\\theta$ to minimize the MSE.\nThe Normal Equation To find the value of $\\bm\\theta$ that minimizes the cost function, there is a closed-form solution - in other words, a mathematical equation that gives the result directly.\nLet us representing the cost function in a vector form, starting with the residual\n$$ \\begin{bmatrix} \\theta^T({x}^0)\\newline \\theta^T({x}^1)\\newline \\vdots \\newline \\theta^T({x}^m)\\newline \\end{bmatrix} - \\begin{bmatrix} y^0\\newline y^1\\newline \\vdots \\newline y^m\\newline \\end{bmatrix} = \\textbf{X} \\bm\\theta - y $$\nBut each residual value is squared. We can not simply square the above expression. As the square of a vector/matix is not equal to the square of each of its values. So to get the squared value, multiply the vector/matrix with its transpose. Therefore the final equation is:\n$$ \\text{MSE}\\left(\\textbf{X}, h_{\\bm\\theta}\\right) = \\frac{1}{m}\\left(\\left(\\textbf{X} \\bm\\theta - y\\right)^T \\left(\\textbf{X} \\bm\\theta - y\\right)\\right) \\newline = \\frac{1}{m}\\left(\\left(\\textbf{X}\\bm\\theta\\right)^T\\textbf{X}\\bm\\theta - y\\left(\\textbf{X}\\bm\\theta\\right)^T - y^T\\textbf{X}\\bm\\theta + y^Ty\\right) \\newline = \\frac{1}{m}\\left(\\bm\\theta^T \\textbf{X}^T \\textbf{X} \\bm\\theta - 2 \\bm\\theta^T \\textbf{X}^T y + y^Ty\\right) $$\nNow to minimize $\\text{MSE}\\left(\\textbf{X}, h_{\\bm\\theta}\\right)$ w.r.t. $\\theta$ we’ll set its derivative equal to 0 (i.e., implying that we have a local optimum of the error, it would be the best fit line for the dataset) and solve for $\\theta$. But how do we differentiate this?\nOk, here are the two useful identities we’ll need:\n Derivative of a linear function:  $$ \\frac{\\partial}{\\partial\\vec{x}}\\vec{a} \\cdot \\vec{x} = \\frac{\\partial}{\\partial\\vec{x}}\\vec{a}^T \\vec{x} = \\frac{\\partial}{\\partial\\vec{x}}\\vec{x}^T \\vec{a} = \\vec{a} $$\n(If you think back to calculus, this is just $\\frac{d}{dx}ax = a$)\n Derivative of a quadratic function: if A is symmetric, then:  $$ \\frac{\\partial}{\\partial\\vec{x}} \\vec{x}^T A \\vec{x} = 2 A \\vec{x} $$\n(Again, thinking back to calculus, this is just like $\\frac{d}{dx}ax^2 = 2ax$)\nIn case you’re wondering what if A is non-symmetric. The more general rule is:\n$$ \\frac{\\partial}{\\partial\\vec{x}} \\vec{x}^T A \\vec{x} = \\left(A + A^T\\right) \\vec{x} $$\nWhich of course is the same thing as $2A\\vec{x}$ when $A$ is symmetric.\nNow back at the cost function, we can see that it’s derivative w.r.t. $\\bm\\theta$ noted as $\\nabla_\\theta MSE(\\bm\\theta)$ (also called the gradient vector) is just:\n$$ \\nabla_\\theta MSE(\\bm\\theta) = \\frac{2}{m} \\left(\\textbf{X}^T\\textbf{X}\\bm\\theta - \\textbf{X}^Ty\\right) $$\nLet’s set it equal to 0 (noted as $\\stackrel{!}{=}$, think of it as “shall be (made) equal to”) and solve for $\\bm\\theta$\n$$ \\nabla_\\theta MSE(\\bm\\theta) = \\frac{2}{m} \\left(\\textbf{X}^T\\textbf{X}\\bm\\theta - \\textbf{X}^Ty\\right) \\stackrel{!}{=} 0 \\newline \\implies \\textbf{X}^T\\textbf{X}\\bm\\theta = \\textbf{X}^Ty \\newline \\implies \\bm\\theta = (\\textbf{X}^T \\textbf{X})^{-1} \\ \\ \\textbf{X}^T \\ \\ y $$\nThis is called the Normal Equation:\n$$ \\widehat{\\bm\\theta} = (\\textbf X^T \\textbf X )^{-1} \\ \\ \\textbf X^T \\ \\ y $$\nIn this equation:\n $\\widehat{\\bm\\theta}$ is the value of $\\bm\\theta$ that minimizes the cost function. $y$ is the vector of target values containing $y^{(1)}$ to $y^{(m)}$  Let’s generate some random linear-looking data to this equation.\nimport numpy as np X = 2 * np.random.rand(100, 1) y = 5 + 4 * X + np.random.randn(100, 1) Now let compute $\\widehat{\\bm\\theta}$ using the Normal Equation. We’ll use the np.linalg.inv() function from NumPy’s linear algebra module to compute the inverse of a matrix. Note that the @ symbol was introduced in Python 3.5 as matrix multiplication.\nX_b = np.c_[np.ones((100,1)), X] theta_bestfit = np.linalg.inv(X_b.T @ X_b) @ X_b.T @ y The function we used to generate the data is $y = 5 + 4x_1$ with some Gaussian noise. Let’s see what the equation found!\n theta_bestfit array([[5.09647054], [4.01624421]]) Close enough. The noise made it impossible to recover the exact parameters of the original function. Now we can make prediction using $\\widehat{\\bm\\theta}$\nX_test = np.array([[0], [3]]) X_test_b = np.c_[np.ones((2,1)), X_test] y_predict = X_test_b @ theta_bestfit  y_predict array([[ 5.09647054], [17.14520317]]) But the Normal Equation may not work if the matrix $\\bm{X}^T\\bm{X}$ is not invertible (i.e. singular also called degenerate). This equation has a single solution if $\\bm{X}^T\\bm{X}$ is invertible (i.e. non-singular). If it’s not, you have more solutions.\nTake $\\textbf{X} = \\begin{bmatrix} 1 \u0026 0 \\newline 0 \u0026 1 \\newline 0 \u0026 0 \\end{bmatrix}$ for example, it’s transpose will be $\\textbf{X}^T = \\begin{bmatrix} 1 \u0026 0 \u0026 0 \\newline 0 \u0026 1 \u0026 0 \\end{bmatrix} $. Therefore\n$$ \\textbf{X}^T \\textbf{X} = \\begin{bmatrix} 1 \u0026 0 \u0026 0 \\newline 0 \u0026 1 \u0026 0 \\newline 0 \u0026 0 \u0026 0 \\end{bmatrix} $$\nWe can see that the determinant of this matrix 0 so it is not invertible. Then how can we solve for $\\bm\\theta$? Use the Moore-Penrose inverse!\nThe Moore-Penrose Pseudoinverse In Linear Algebra, the Moore-Penrose inverse of a matrix is the most well known generalization of the inverse matrix. The term generalized inverse is sometimes used as a synonym for pseudoinverse. A common use of the pseudoinverse is to compute a “best fit” (least square) solution to a system of linear equations that lacks a solution. Another is to find the minimum (Euclidean) norm solution to a system of linear equations with multiple solutions. That’s exactly what we need.\nThe pseudoinverse itself is computed using a standard matrix factorization technique called Singular Value Decomposition (SVD) that can decompose any matrix $\\textbf X$ into the matrix multiplication of three matrices.\n$$ \\textbf{X} = \\textbf{U} \\Sigma \\textbf{V}^T $$\nWhere $\\textbf{U}$ and $\\textbf{V}$ are orthogonal matrices (i.e. its inverse equal to its transpose), $\\Sigma$ is a diagonal matrix (i.e. entries out side the main diagonal are zeros).\nWhat does it actually do? You might ask. I’ll save it for another post. It’s deserve a post of its own. Now let’s suppose $\\textbf X$ is invertible, then its inverse is\n$$ \\textbf X^{-1} = \\textbf V \\Sigma^{-1} \\textbf U^T $$\nThe pseudoinverse of $\\textbf{X}$ is quite similar but instead of $\\Sigma^{-1}$ we use it’s pseudoinverse $\\Sigma^+$\n$$ \\textbf{X}^+ = \\textbf{V} \\Sigma^+ \\textbf{U}^T $$\nWhere $\\Sigma^+$ is computed by replace all nonzero values with their inverse and transpose the resulting matrix.\nNow let’s take our linear model equation above and rewrite it in its matrix form as:\n$$ \\textbf{X} \\bm\\theta = y $$\nWe know that inverse of a matrix multiply by itself is equal to the identity matrix and any matrix multiply by the identity matrix result in the matrix itself. Hence\n$$ \\textbf{X}^+ \\textbf{X} \\bm\\theta = \\textbf{X}^+ y \\newline \\implies \\bm\\theta = \\textbf{X}^+ y $$\nSee something similar? That’s right, it looks like our Normal Equation above. It implies that\n$$ \\textbf{X}^+ = \\textbf{V} \\Sigma^+ \\textbf{U}^T = (\\textbf X^T \\textbf X )^{-1} \\ \\ \\textbf X^T $$\nIndeed, if we multiply the left and right side of the equation to $\\textbf{X}$ we’ll get back the identity matrix\n$$ \\textbf{X}^+ \\textbf{X} = (\\textbf X^T \\textbf X)^{-1} \\ \\ \\textbf X^T \\textbf{X} = \\textbf I $$\nOr if we take the right hand side of the equation, plug in the SVD and cancel like crazy we’ll get\n$$ (\\textbf X^T \\textbf X)^{-1} \\ \\ \\textbf X^T \\newline = (\\textbf U^T \\Sigma \\textbf V \\ \\textbf U \\Sigma \\textbf V^T)^{-1} \\ \\textbf U^T \\Sigma \\textbf V \\newline = \\textbf V \\Sigma^+ \\textbf U^T \\ \\textbf V^T \\Sigma^+ \\textbf U \\ \\textbf U^T \\Sigma \\textbf V \\newline = \\textbf V \\Sigma^+ \\textbf U^T $$\nThis approach is more efficient than computing the Normal Equation, plus it handles edge cases nicely and the pseudoinverse is always defined.\nPerforming Moore-Penrose Pseudoinverse in python is simple. Just call np.linalg.pinv() instead!\ntheta_pinv = np.linalg.pinv(X_b) @ y  theta_pinv array([[5.09647054], [4.01624421]]) Computational Complexity The Normal Equation computes the inverse of $\\textbf{X}^T \\textbf X$, which is an $(n + 1) \\times (n + 1)$ matrix (where $n$ is the number of features). The computational complexity of inverting such an matrix is typically about $O(n^{2.4})$ to $O(n^3)$, depending on the implementation. In other words, if you double the number of features, you multiply the computational time by roughly $2^{2.4} = 5.3$ to $2^3 = 8$.\nThe SVD approach used by Scikit-Learn’s LinearRegression class is about $O(n^2)$. If you double the number of features, you multiply the computational time by roughly 4.\nWhat it means is both the Normal Equation and the SVD approach get very slow when the number of features grows large (e.g. 100,000). On the positive side, both are linear with regard to the number of instances in the training set (they are $O(m)$), so they handle large training sets efficiently, provided they can fit in memory.\nAlso, once you have trained your Linear Regression model (using the Normal Equation or any other algorithm), predictions are very fast: the computational complexity is linear with regard to both the number of instances you want to make predictions on and the number of features. In other words, making predictions on twice as many instances (or twice as many features) will take roughly twice as much time.\nNow we’ll look at a very different way to train a Linear Regression model, which is better suited for cases where there are a large number of features or too many training instances to fit in memory.\nGradient Descent Gradient Descent is a generic optimization algorithm capable of finding optimal solutions to a wide range of problems. The general idea of Gradient Descent is to tweak parameters iteratively in order to minimize a cost function. It measures the local gradient of the error function with regard to the parameter vector $\\theta$, and it goes in the direction of descending gradient. Once the gradient is zero, you have reached a minimum!\nGenerally you start by defining $\\theta$ with random values (this is called random initialization). Then you improve it gradually, taking one baby step at a time, each step attempting to decrease the cost function (e.g. the MSE), until the algorithm converges to a minimum.\nAn important parameter in Gradient Descent is the size of the step, determined by the learning rate hyperparameter. If the learning rate is too small, then the algorithm will have to go through many iterations to converges, which will take a long time.\nOn the other hand, if the learning rate is too high, you might over shoot the local minimum, possibly even higher error than you were before. This might make the algorithm diverge, with larger and larger values, failing to find a good solution.\nFinally, not all cost functions looks like nice, regular bowls. There may be holes, ridges plateaus, and all sort of irregular terrains, making convergence to the minimum difficult.\nFortunately, the MSE cost function for a Linear Regression model happens to be a convex function, which means that if you pick any two points on the curve, the line segment join them never crosses the curve. This implies that there are no local minima, just one global minimum. It is also a continuous function with a slope that never changes abruptly. These two facts have a great consequence: Gradient Descent is guaranteed to approach arbitrary close the global minimum.\nTo implement Gradient Descent, you need to compute the gradient of the cost function with regard to each model parameter $\\theta_j$. In other words, you need to calculate how much the cost function will change if you change $\\theta_j$ just a little bit. This is called the partial derivative. It is like asking “If I take one small step ahead, which way is downhill?”. The equation to computes the partial derivative of the cost function with regard to parameter $\\theta_j$ noted $\\frac{\\partial}{\\partial\\theta_j}MSE(\\bm\\theta)$ is\n$$ \\frac{\\partial}{\\partial\\theta_j}MSE(\\bm\\theta)\\ = \\frac{2}{m} \\sum_{i=1}^m (\\bm\\theta^T \\textbf{x}^{(i)} - y^{(i)})x_j^{(i)} $$\nInstead of computing these partial derivatives individually, you can use the equation below (just like we’ve worked it out above for the Normal Equation) to compute them all in one go. The gradient vector, noted $\\nabla_\\theta MSE(\\bm\\theta)$, contains all the partial derivatives of the cost function (one for each model parameter).\n$$ \\nabla_\\theta MSE(\\bm\\theta) = \\begin{pmatrix} \\frac{\\partial}{\\partial\\theta_0}MSE(\\bm\\theta) \\newline \\frac{\\partial}{\\partial\\theta_1}MSE(\\bm\\theta) \\newline \\vdots \\newline \\frac{\\partial}{\\partial\\theta_n}MSE(\\bm\\theta) \\newline \\end{pmatrix} = \\frac{2}{m} \\textbf X^T (\\textbf X \\bm\\theta - \\bm y) $$\nNotice that this formula involves calculations over the full training set $\\textbf X$, at each Gradient Descent step! As a result it is terribly slow on very large training sets. However, Gradient Descent scales well with the number of features; training a Linear Regression model when there are hundreds of thousands of features is much fast using Gradient Descent than using the Normal Equation or SVD decomposition.\nOnce you have the gradient vector, which increase the MSE, just go in the opposite direction. That means subtracting $\\nabla_{\\bm\\theta} MSE(\\bm\\theta)$ from $\\bm\\theta$. This is where the learning rate $\\eta$ comes in to plays: multiply the gradient vector by $\\eta$ to determine the size of the downhill step.\n$$ \\bm\\theta^{\\text{(next step)}} = \\bm\\theta - \\eta \\nabla_{\\bm\\theta} MSE(\\bm\\theta) $$\nLet’s look at a quick implementation of this algorithm.\neta = 0.1 n_iteration = 1000 m = 100 theta = np.random.randn(2, 1) for iteration in range(n_iteration): gradients = 2/m * X_b.T @ (X_b @ theta - y) theta -= eta * gradients That wasn’t too hard! Let’s take a look at the resulting $\\bm\\theta$\n theta array([[5.09647054], [4.01624421]]) That’s exactly what the Normal Equation found! But what if you have used a different learning rates $\\eta$?\nOn the left the learning rate is too low: the algorithm will eventually reach the solution, but it will take a long time. On the right the learning rate is too high: the algorithm diverges, jumping all over the place and actually getting further and further away from the solution at every step. In the middle, the learning rate looks pretty good: in just a few iterations, it has already converged to the solution.\nConclution Linear Regression is an algorithm that every Data Scientist and Machine Learning engineer must know. It is also a good place to start for people who want to get into the Machine Learning industry as well. It is really a simple but useful algorithm.\nIn this post we have learnt about the concepts of linear regression and gradient descent. We also had a deep dive into the mathematics behind it as well as implemented the model from scratch using only NumPy. I hope you had as much fun reading as I did writing it.\nThank you for reading!\n",
   "wordCount" : "3138",
   "inLanguage": "en",
-  "image":"https://blog.nguyentritai.tk/posts/2020/linear-regression/cover.png","datePublished": "2021-05-03T15:48:43+07:00",
+  "image":"https://blog.nguyentritai.io/posts/2020/linear-regression/cover.png","datePublished": "2021-05-03T15:48:43+07:00",
   "dateModified": "2021-05-03T15:48:43+07:00",
   "author":{
     "@type": "Person",
@@ -117,14 +117,14 @@ What is Linear Regression? Before knowing what is linear regression, let us get 
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://blog.nguyentritai.tk/posts/2020/linear-regression/"
+    "@id": "https://blog.nguyentritai.io/posts/2020/linear-regression/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "nttai",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://blog.nguyentritai.tk/favicon.ico"
+      "url": "https://blog.nguyentritai.io/favicon.ico"
     }
   }
 }
@@ -151,7 +151,7 @@ What is Linear Regression? Before knowing what is linear regression, let us get 
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://blog.nguyentritai.tk/" accesskey="h" title="nttai (Alt + H)">nttai</a>
+            <a href="https://blog.nguyentritai.io/" accesskey="h" title="nttai (Alt + H)">nttai</a>
             <span class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -175,7 +175,7 @@ What is Linear Regression? Before knowing what is linear regression, let us get 
                 </button>
                 <ul class="lang-switch"><li>|</li>
                     <li>
-                        <a href="https://blog.nguyentritai.tk/vi/" title="Vietnamese"
+                        <a href="https://blog.nguyentritai.io/vi/" title="Vietnamese"
                             aria-label=":vi:">Vi</a>
                     </li>
                 </ul>
@@ -183,32 +183,32 @@ What is Linear Regression? Before knowing what is linear regression, let us get 
         </div>
         <ul id="menu">
             <li>
-                <a href="https://blog.nguyentritai.tk/posts" title="Posts">
+                <a href="https://blog.nguyentritai.io/posts" title="Posts">
                     <span>Posts</span>
                 </a>
             </li>
             <li>
-                <a href="https://blog.nguyentritai.tk/archive" title="Archive">
+                <a href="https://blog.nguyentritai.io/archive" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
             <li>
-                <a href="https://blog.nguyentritai.tk/categories" title="Categories">
+                <a href="https://blog.nguyentritai.io/categories" title="Categories">
                     <span>Categories</span>
                 </a>
             </li>
             <li>
-                <a href="https://blog.nguyentritai.tk/tags" title="Tags">
+                <a href="https://blog.nguyentritai.io/tags" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="https://blog.nguyentritai.tk/search" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://blog.nguyentritai.io/search" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://blog.nguyentritai.tk/about" title="About">
+                <a href="https://blog.nguyentritai.io/about" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -219,7 +219,7 @@ What is Linear Regression? Before knowing what is linear regression, let us get 
 
 <article class="post-single">
     <header class="post-header">
-        <div class="breadcrumbs"><a href="https://blog.nguyentritai.tk/">Home</a>&nbsp;»&nbsp;<a href="https://blog.nguyentritai.tk/posts/">Posts</a></div>
+        <div class="breadcrumbs"><a href="https://blog.nguyentritai.io/">Home</a>&nbsp;»&nbsp;<a href="https://blog.nguyentritai.io/posts/">Posts</a></div>
         <h1 class="post-title">
             Linear Regression and a deep dive into the mathematics behind it.
         </h1>
@@ -227,8 +227,8 @@ What is Linear Regression? Before knowing what is linear regression, let us get 
 </div>
     </header> 
 <figure class="entry-cover">
-        <img loading="lazy" srcset="https://blog.nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_360x0_resize_box_3.png 360w ,https://blog.nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_480x0_resize_box_3.png 480w ,https://blog.nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_720x0_resize_box_3.png 720w ,https://blog.nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_1080x0_resize_box_3.png 1080w ,https://blog.nguyentritai.tk/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_1500x0_resize_box_3.png 1500w ,https://blog.nguyentritai.tk/posts/2020/linear-regression/cover.png 1920w"
-            sizes="(min-width: 768px) 720px, 100vw" src="https://blog.nguyentritai.tk/posts/2020/linear-regression/cover.png" alt="Linear Regression" />
+        <img loading="lazy" srcset="https://blog.nguyentritai.io/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_360x0_resize_box_3.png 360w ,https://blog.nguyentritai.io/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_480x0_resize_box_3.png 480w ,https://blog.nguyentritai.io/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_720x0_resize_box_3.png 720w ,https://blog.nguyentritai.io/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_1080x0_resize_box_3.png 1080w ,https://blog.nguyentritai.io/posts/2020/linear-regression/cover_hu82da6110acb4d54ab7f7788e39ed68be_81914_1500x0_resize_box_3.png 1500w ,https://blog.nguyentritai.io/posts/2020/linear-regression/cover.png 1920w"
+            sizes="(min-width: 768px) 720px, 100vw" src="https://blog.nguyentritai.io/posts/2020/linear-regression/cover.png" alt="Linear Regression" />
         
 </figure><div class="toc">
     <details >
@@ -684,14 +684,14 @@ much fun reading as I did writing it.</p>
 </div>
     <footer class="post-footer">
         <ul class="post-tags">
-            <li><a href="https://blog.nguyentritai.tk/tags/machine-learning/">Machine Learning</a></li>
-            <li><a href="https://blog.nguyentritai.tk/tags/linear-regression/">Linear Regression</a></li>
-            <li><a href="https://blog.nguyentritai.tk/tags/normal-equation/">Normal Equation</a></li>
-            <li><a href="https://blog.nguyentritai.tk/tags/pseudo-inverse/">Pseudo Inverse</a></li>
-            <li><a href="https://blog.nguyentritai.tk/tags/gradient-descent/">Gradient Descent</a></li>
+            <li><a href="https://blog.nguyentritai.io/tags/machine-learning/">Machine Learning</a></li>
+            <li><a href="https://blog.nguyentritai.io/tags/linear-regression/">Linear Regression</a></li>
+            <li><a href="https://blog.nguyentritai.io/tags/normal-equation/">Normal Equation</a></li>
+            <li><a href="https://blog.nguyentritai.io/tags/pseudo-inverse/">Pseudo Inverse</a></li>
+            <li><a href="https://blog.nguyentritai.io/tags/gradient-descent/">Gradient Descent</a></li>
         </ul>
 <nav class="paginav">
-  <a class="prev" href="https://blog.nguyentritai.tk/posts/2021/depthwise-separable-convolution/">
+  <a class="prev" href="https://blog.nguyentritai.io/posts/2021/depthwise-separable-convolution/">
     <span class="title">« Prev Page</span>
     <br>
     <span>Depthwise Separable Convolution - How does it works?</span>
@@ -700,42 +700,42 @@ much fun reading as I did writing it.</p>
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Linear Regression and a deep dive into the mathematics behind it. on twitter"
-        href="https://twitter.com/intent/tweet/?text=Linear%20Regression%20and%20a%20deep%20dive%20into%20the%20mathematics%20behind%20it.&amp;url=https%3a%2f%2fblog.nguyentritai.tk%2fposts%2f2020%2flinear-regression%2f&amp;hashtags=MachineLearning%2cLinearRegression%2cNormalEquation%2cPseudoInverse%2cGradientDescent">
+        href="https://twitter.com/intent/tweet/?text=Linear%20Regression%20and%20a%20deep%20dive%20into%20the%20mathematics%20behind%20it.&amp;url=https%3a%2f%2fblog.nguyentritai.io%2fposts%2f2020%2flinear-regression%2f&amp;hashtags=MachineLearning%2cLinearRegression%2cNormalEquation%2cPseudoInverse%2cGradientDescent">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
         </svg>
     </a>
     <a target="_blank" rel="noopener noreferrer" aria-label="share Linear Regression and a deep dive into the mathematics behind it. on linkedin"
-        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fblog.nguyentritai.tk%2fposts%2f2020%2flinear-regression%2f&amp;title=Linear%20Regression%20and%20a%20deep%20dive%20into%20the%20mathematics%20behind%20it.&amp;summary=Linear%20Regression%20and%20a%20deep%20dive%20into%20the%20mathematics%20behind%20it.&amp;source=https%3a%2f%2fblog.nguyentritai.tk%2fposts%2f2020%2flinear-regression%2f">
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fblog.nguyentritai.io%2fposts%2f2020%2flinear-regression%2f&amp;title=Linear%20Regression%20and%20a%20deep%20dive%20into%20the%20mathematics%20behind%20it.&amp;summary=Linear%20Regression%20and%20a%20deep%20dive%20into%20the%20mathematics%20behind%20it.&amp;source=https%3a%2f%2fblog.nguyentritai.io%2fposts%2f2020%2flinear-regression%2f">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
         </svg>
     </a>
     <a target="_blank" rel="noopener noreferrer" aria-label="share Linear Regression and a deep dive into the mathematics behind it. on reddit"
-        href="https://reddit.com/submit?url=https%3a%2f%2fblog.nguyentritai.tk%2fposts%2f2020%2flinear-regression%2f&title=Linear%20Regression%20and%20a%20deep%20dive%20into%20the%20mathematics%20behind%20it.">
+        href="https://reddit.com/submit?url=https%3a%2f%2fblog.nguyentritai.io%2fposts%2f2020%2flinear-regression%2f&title=Linear%20Regression%20and%20a%20deep%20dive%20into%20the%20mathematics%20behind%20it.">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
         </svg>
     </a>
     <a target="_blank" rel="noopener noreferrer" aria-label="share Linear Regression and a deep dive into the mathematics behind it. on facebook"
-        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.nguyentritai.tk%2fposts%2f2020%2flinear-regression%2f">
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.nguyentritai.io%2fposts%2f2020%2flinear-regression%2f">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
         </svg>
     </a>
     <a target="_blank" rel="noopener noreferrer" aria-label="share Linear Regression and a deep dive into the mathematics behind it. on whatsapp"
-        href="https://api.whatsapp.com/send?text=Linear%20Regression%20and%20a%20deep%20dive%20into%20the%20mathematics%20behind%20it.%20-%20https%3a%2f%2fblog.nguyentritai.tk%2fposts%2f2020%2flinear-regression%2f">
+        href="https://api.whatsapp.com/send?text=Linear%20Regression%20and%20a%20deep%20dive%20into%20the%20mathematics%20behind%20it.%20-%20https%3a%2f%2fblog.nguyentritai.io%2fposts%2f2020%2flinear-regression%2f">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
         </svg>
     </a>
     <a target="_blank" rel="noopener noreferrer" aria-label="share Linear Regression and a deep dive into the mathematics behind it. on telegram"
-        href="https://telegram.me/share/url?text=Linear%20Regression%20and%20a%20deep%20dive%20into%20the%20mathematics%20behind%20it.&amp;url=https%3a%2f%2fblog.nguyentritai.tk%2fposts%2f2020%2flinear-regression%2f">
+        href="https://telegram.me/share/url?text=Linear%20Regression%20and%20a%20deep%20dive%20into%20the%20mathematics%20behind%20it.&amp;url=https%3a%2f%2fblog.nguyentritai.io%2fposts%2f2020%2flinear-regression%2f">
         <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28">
             <path
                 d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
@@ -782,7 +782,7 @@ much fun reading as I did writing it.</p>
 </article>
     </main>
     <footer class="footer">
-    <span>&copy; 2023 <a href="https://blog.nguyentritai.tk/">Nguyen Tri Tai</a></span>
+    <span>&copy; 2023 <a href="https://blog.nguyentritai.io/">Nguyen Tri Tai</a></span>
     <span>&middot;</span>
     <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
     <span>&middot;</span>

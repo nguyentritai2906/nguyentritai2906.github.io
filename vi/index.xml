@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>nttai</title>
-    <link>https://blog.nguyentritai.tk/vi/</link>
+    <link>https://blog.nguyentritai.io/vi/</link>
     <description>Recent content on nttai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Apr 2021 15:08:29 +0700</lastBuildDate><atom:link href="https://blog.nguyentritai.tk/vi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Apr 2021 15:08:29 +0700</lastBuildDate><atom:link href="https://blog.nguyentritai.io/vi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Init</title>
-      <link>https://blog.nguyentritai.tk/vi/posts/2020/init/</link>
+      <link>https://blog.nguyentritai.io/vi/posts/2020/init/</link>
       <pubDate>Fri, 23 Apr 2021 15:08:29 +0700</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/vi/posts/2020/init/</guid>
+      <guid>https://blog.nguyentritai.io/vi/posts/2020/init/</guid>
       <description>Một con vịt xòe ra hai cái cánh
 Nó kêu rằng cáp cáp cáp cạp cạp cạp
 Gặp hồ nước nó bì bà bì bõm
@@ -22,10 +22,10 @@ Code block import numpy as np print(&amp;#34;New blog!!!&amp;#34;) class somecla
     
     <item>
       <title></title>
-      <link>https://blog.nguyentritai.tk/vi/about/</link>
+      <link>https://blog.nguyentritai.io/vi/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/vi/about/</guid>
+      <guid>https://blog.nguyentritai.io/vi/about/</guid>
       <description>Một chút về mình &amp;hellip;
 Sở thích của mình &amp;hellip;
 Liên lạc với mình &amp;hellip;</description>

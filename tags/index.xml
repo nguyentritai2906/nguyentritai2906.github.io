@@ -2,89 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on nttai</title>
-    <link>https://blog.nguyentritai.tk/tags/</link>
+    <link>https://blog.nguyentritai.io/tags/</link>
     <description>Recent content in Tags on nttai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Mar 2023 13:31:22 +0700</lastBuildDate><atom:link href="https://blog.nguyentritai.tk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 13:31:22 +0700</lastBuildDate><atom:link href="https://blog.nguyentritai.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authentication</title>
-      <link>https://blog.nguyentritai.tk/tags/authentication/</link>
+      <link>https://blog.nguyentritai.io/tags/authentication/</link>
       <pubDate>Wed, 01 Mar 2023 13:31:22 +0700</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/tags/authentication/</guid>
+      <guid>https://blog.nguyentritai.io/tags/authentication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Authorization</title>
-      <link>https://blog.nguyentritai.tk/tags/authorization/</link>
+      <link>https://blog.nguyentritai.io/tags/authorization/</link>
       <pubDate>Wed, 01 Mar 2023 13:31:22 +0700</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/tags/authorization/</guid>
+      <guid>https://blog.nguyentritai.io/tags/authorization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OAuth2</title>
-      <link>https://blog.nguyentritai.tk/tags/oauth2/</link>
+      <link>https://blog.nguyentritai.io/tags/oauth2/</link>
       <pubDate>Wed, 01 Mar 2023 13:31:22 +0700</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/tags/oauth2/</guid>
+      <guid>https://blog.nguyentritai.io/tags/oauth2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>https://blog.nguyentritai.tk/tags/machine-learning/</link>
+      <link>https://blog.nguyentritai.io/tags/machine-learning/</link>
       <pubDate>Fri, 10 Jun 2022 21:21:31 +0700</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/tags/machine-learning/</guid>
+      <guid>https://blog.nguyentritai.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tensorboard</title>
-      <link>https://blog.nguyentritai.tk/tags/tensorboard/</link>
+      <link>https://blog.nguyentritai.io/tags/tensorboard/</link>
       <pubDate>Fri, 10 Jun 2022 21:21:31 +0700</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/tags/tensorboard/</guid>
+      <guid>https://blog.nguyentritai.io/tags/tensorboard/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gradient Descent</title>
-      <link>https://blog.nguyentritai.tk/tags/gradient-descent/</link>
+      <link>https://blog.nguyentritai.io/tags/gradient-descent/</link>
       <pubDate>Mon, 03 May 2021 15:48:43 +0700</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/tags/gradient-descent/</guid>
+      <guid>https://blog.nguyentritai.io/tags/gradient-descent/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linear Regression</title>
-      <link>https://blog.nguyentritai.tk/tags/linear-regression/</link>
+      <link>https://blog.nguyentritai.io/tags/linear-regression/</link>
       <pubDate>Mon, 03 May 2021 15:48:43 +0700</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/tags/linear-regression/</guid>
+      <guid>https://blog.nguyentritai.io/tags/linear-regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Normal Equation</title>
-      <link>https://blog.nguyentritai.tk/tags/normal-equation/</link>
+      <link>https://blog.nguyentritai.io/tags/normal-equation/</link>
       <pubDate>Mon, 03 May 2021 15:48:43 +0700</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/tags/normal-equation/</guid>
+      <guid>https://blog.nguyentritai.io/tags/normal-equation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pseudo Inverse</title>
-      <link>https://blog.nguyentritai.tk/tags/pseudo-inverse/</link>
+      <link>https://blog.nguyentritai.io/tags/pseudo-inverse/</link>
       <pubDate>Mon, 03 May 2021 15:48:43 +0700</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/tags/pseudo-inverse/</guid>
+      <guid>https://blog.nguyentritai.io/tags/pseudo-inverse/</guid>
       <description></description>
     </item>
     

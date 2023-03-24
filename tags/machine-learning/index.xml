@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Machine Learning on nttai</title>
-    <link>https://blog.nguyentritai.tk/tags/machine-learning/</link>
+    <link>https://blog.nguyentritai.io/tags/machine-learning/</link>
     <description>Recent content in Machine Learning on nttai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jun 2022 21:21:31 +0700</lastBuildDate><atom:link href="https://blog.nguyentritai.tk/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jun 2022 21:21:31 +0700</lastBuildDate><atom:link href="https://blog.nguyentritai.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tensorboard Projector Image Visualizer with Tensorflow 2</title>
-      <link>https://blog.nguyentritai.tk/posts/2022/tensorboard-projector-image-visualizer/</link>
+      <link>https://blog.nguyentritai.io/posts/2022/tensorboard-projector-image-visualizer/</link>
       <pubDate>Fri, 10 Jun 2022 21:21:31 +0700</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/posts/2022/tensorboard-projector-image-visualizer/</guid>
+      <guid>https://blog.nguyentritai.io/posts/2022/tensorboard-projector-image-visualizer/</guid>
       <description>There are not much infomation on the internet on how to visualize your embeddings with Tensorboard. I&amp;rsquo;ve had a hard time trying to make it work properly. Although there&amp;rsquo;re some tutorial on the internet but most of them are for Tensorflow 1 and I didn&amp;rsquo;t find the Tensorboard guide documentation page much help. So here&amp;rsquo;s how I make it works and hopefully it&amp;rsquo;ll help you too. But before we continue, I&amp;rsquo;ll assume you already have an image dataset with labels and a model ready.</description>
     </item>
     
     <item>
       <title>Depthwise Separable Convolution - How does it works?</title>
-      <link>https://blog.nguyentritai.tk/posts/2021/depthwise-separable-convolution/</link>
+      <link>https://blog.nguyentritai.io/posts/2021/depthwise-separable-convolution/</link>
       <pubDate>Sun, 22 Aug 2021 16:01:28 +0700</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/posts/2021/depthwise-separable-convolution/</guid>
+      <guid>https://blog.nguyentritai.io/posts/2021/depthwise-separable-convolution/</guid>
       <description>Convolution is one of the fundamental building block of Deep Neural Network (DNN) but sometimes, it can be extremely expensive to compute since it brings a lots of parameters and we are running risk of overfiting. This is where depthwise separable convolution can be used to reduce the total number of parameters, as a result, speed up convolution. This is a form of factorized convolutions which factorize a standard convolution into a depthwise convolution and a 1 x 1 convolution called a pointwise convolution.</description>
     </item>
     
     <item>
       <title>Linear Regression and a deep dive into the mathematics behind it.</title>
-      <link>https://blog.nguyentritai.tk/posts/2020/linear-regression/</link>
+      <link>https://blog.nguyentritai.io/posts/2020/linear-regression/</link>
       <pubDate>Mon, 03 May 2021 15:48:43 +0700</pubDate>
       
-      <guid>https://blog.nguyentritai.tk/posts/2020/linear-regression/</guid>
+      <guid>https://blog.nguyentritai.io/posts/2020/linear-regression/</guid>
       <description>Linear Regression is the most basic, well known and well understood supervised learning algorithm. It&amp;rsquo;s probably the first thing that every Machine Learning Engineer and Data Scientist come across as it lays the foundation for other sophisticated learning algorithm. But what is it?
 What is Linear Regression? Before knowing what is linear regression, let us get ourselves accustomed to regression. Regression is a method of modeling the relationships between a dependent variable and one or more independent variables.</description>
     </item>

@@ -2,140 +2,140 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.nguyentritai.tk/</loc>
+    <loc>https://blog.nguyentritai.io/</loc>
     <lastmod>2023-03-02T18:22:52+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://blog.nguyentritai.tk/vi/"
+                href="https://blog.nguyentritai.io/vi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.nguyentritai.tk/"
+                href="https://blog.nguyentritai.io/"
                 />
   </url><url>
-    <loc>https://blog.nguyentritai.tk/posts/</loc>
+    <loc>https://blog.nguyentritai.io/posts/</loc>
     <lastmod>2023-03-02T18:22:52+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://blog.nguyentritai.tk/vi/posts/"
+                href="https://blog.nguyentritai.io/vi/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.nguyentritai.tk/posts/"
+                href="https://blog.nguyentritai.io/posts/"
                 />
   </url><url>
-    <loc>https://blog.nguyentritai.tk/posts/2023/ufw/</loc>
+    <loc>https://blog.nguyentritai.io/posts/2023/ufw/</loc>
     <lastmod>2023-03-02T18:22:52+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/tags/authentication/</loc>
+    <loc>https://blog.nguyentritai.io/tags/authentication/</loc>
     <lastmod>2023-03-01T13:31:22+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/tags/authorization/</loc>
+    <loc>https://blog.nguyentritai.io/tags/authorization/</loc>
     <lastmod>2023-03-01T13:31:22+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/tags/oauth2/</loc>
+    <loc>https://blog.nguyentritai.io/tags/oauth2/</loc>
     <lastmod>2023-03-01T13:31:22+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/posts/2023/oauth2/</loc>
+    <loc>https://blog.nguyentritai.io/posts/2023/oauth2/</loc>
     <lastmod>2023-03-01T13:31:22+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/tags/</loc>
+    <loc>https://blog.nguyentritai.io/tags/</loc>
     <lastmod>2023-03-01T13:31:22+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://blog.nguyentritai.tk/vi/tags/"
+                href="https://blog.nguyentritai.io/vi/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.nguyentritai.tk/tags/"
+                href="https://blog.nguyentritai.io/tags/"
                 />
   </url><url>
-    <loc>https://blog.nguyentritai.tk/tags/machine-learning/</loc>
+    <loc>https://blog.nguyentritai.io/tags/machine-learning/</loc>
     <lastmod>2022-06-10T21:21:31+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/tags/tensorboard/</loc>
+    <loc>https://blog.nguyentritai.io/tags/tensorboard/</loc>
     <lastmod>2022-06-10T21:21:31+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/posts/2022/tensorboard-projector-image-visualizer/</loc>
+    <loc>https://blog.nguyentritai.io/posts/2022/tensorboard-projector-image-visualizer/</loc>
     <lastmod>2022-06-10T21:21:31+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/categories/</loc>
+    <loc>https://blog.nguyentritai.io/categories/</loc>
     <lastmod>2021-08-22T16:01:28+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://blog.nguyentritai.tk/vi/categories/"
+                href="https://blog.nguyentritai.io/vi/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.nguyentritai.tk/categories/"
+                href="https://blog.nguyentritai.io/categories/"
                 />
   </url><url>
-    <loc>https://blog.nguyentritai.tk/posts/2021/depthwise-separable-convolution/</loc>
+    <loc>https://blog.nguyentritai.io/posts/2021/depthwise-separable-convolution/</loc>
     <lastmod>2021-08-22T16:01:28+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/categories/machine-learning/</loc>
+    <loc>https://blog.nguyentritai.io/categories/machine-learning/</loc>
     <lastmod>2021-08-22T16:01:28+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/tags/gradient-descent/</loc>
+    <loc>https://blog.nguyentritai.io/tags/gradient-descent/</loc>
     <lastmod>2021-05-03T15:48:43+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/tags/linear-regression/</loc>
+    <loc>https://blog.nguyentritai.io/tags/linear-regression/</loc>
     <lastmod>2021-05-03T15:48:43+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/posts/2020/linear-regression/</loc>
+    <loc>https://blog.nguyentritai.io/posts/2020/linear-regression/</loc>
     <lastmod>2021-05-03T15:48:43+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/tags/normal-equation/</loc>
+    <loc>https://blog.nguyentritai.io/tags/normal-equation/</loc>
     <lastmod>2021-05-03T15:48:43+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/tags/pseudo-inverse/</loc>
+    <loc>https://blog.nguyentritai.io/tags/pseudo-inverse/</loc>
     <lastmod>2021-05-03T15:48:43+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/categories/regression/</loc>
+    <loc>https://blog.nguyentritai.io/categories/regression/</loc>
     <lastmod>2021-05-03T15:48:43+07:00</lastmod>
   </url><url>
-    <loc>https://blog.nguyentritai.tk/about/</loc>
+    <loc>https://blog.nguyentritai.io/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://blog.nguyentritai.tk/vi/about/"
+                href="https://blog.nguyentritai.io/vi/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.nguyentritai.tk/about/"
+                href="https://blog.nguyentritai.io/about/"
                 />
   </url><url>
-    <loc>https://blog.nguyentritai.tk/archive/</loc>
+    <loc>https://blog.nguyentritai.io/archive/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://blog.nguyentritai.tk/vi/archive/"
+                href="https://blog.nguyentritai.io/vi/archive/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.nguyentritai.tk/archive/"
+                href="https://blog.nguyentritai.io/archive/"
                 />
   </url><url>
-    <loc>https://blog.nguyentritai.tk/search/</loc>
+    <loc>https://blog.nguyentritai.io/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://blog.nguyentritai.tk/vi/search/"
+                href="https://blog.nguyentritai.io/vi/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.nguyentritai.tk/search/"
+                href="https://blog.nguyentritai.io/search/"
                 />
   </url>
 </urlset>
