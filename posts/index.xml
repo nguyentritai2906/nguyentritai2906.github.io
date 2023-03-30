@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on NguyenTriTai</title>
+    <title>Posts on Nguyen Tri Tai</title>
     <link>https://blog.nguyentritai.io/posts/</link>
-    <description>Recent content in Posts on NguyenTriTai</description>
+    <description>Recent content in Posts on Nguyen Tri Tai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2023 18:22:52 +0700</lastBuildDate><atom:link href="https://blog.nguyentritai.io/posts/index.xml" rel="self" type="application/rss+xml" />
